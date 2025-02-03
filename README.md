@@ -1,3 +1,21 @@
+# Link Shotter
+
+Link Shotter is a powerful and easy-to-use URL shortening application built with **React** for the frontend and **Squarebase** for the backend. With features like **click tracking** and the ability to create **custom shortened URLs**, Link Shotter is designed to streamline the process of shortening, managing, and tracking your links.
+
+/banner1.png
+
+## Features
+
+- **URL Shortening**: Generate short and manageable URLs from long links.
+- **Custom Shortened URLs**: Create your own custom short URLs to personalize your links.
+- **Click Tracking**: Track the number of times a shortened link has been clicked.
+- **Fast and Responsive**: Built using modern technologies for speed and performance.
+- **User-Friendly**: Intuitive interface for a seamless user experience.
+
+## Project Structure
+
+Here's an overview of the project structure:
+
 ```bash
 
 ├── components.json
@@ -60,3 +78,11 @@
 ├── vite.config.js
 └── yarn.lock
 ```
+
+- .env sample
+```bash
+VITE_SUPABASE_URL=" "
+VITE_SUPABASE_KEY= " "
+VITE_DOMAIN = " "
+```
+- You can customize the sections based on your project's specific details and setup! Let me know if you need further adjustments.
