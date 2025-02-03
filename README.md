@@ -2,7 +2,7 @@
 
 Link Shotter is a powerful and easy-to-use URL shortening application built with **React** for the frontend and **Squarebase** for the backend. With features like **click tracking** and the ability to create **custom shortened URLs**, Link Shotter is designed to streamline the process of shortening, managing, and tracking your links.
 
-![banner](/banner1.png)
+![banner](./public/banner1.png)
 
 ## Features
 
