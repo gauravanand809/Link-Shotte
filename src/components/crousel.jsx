@@ -17,21 +17,21 @@ const MyCarousel = () => {
           <img
             src="/banner1.png"
             alt="Slide 1"
-            className="object-cover w-full h-64 md:h-80 lg:h-96 rounded-xl"
+            className="object-cover w-full h-64 md:h-80 md:w-70 lg:h-96 rounded-xl"
           />
         </div>
         <div>
           <img
             src="/banner2x.jpg"
             alt="Slide 2"
-            className="object-cover w-full h-64 md:h-80 lg:h-96 rounded-xl"
+            className="object-cover w-full h-64 md:h-80 md:w-70 lg:h-96 rounded-xl"
           />
         </div>
         <div>
           <img
             src="/banner3x.jpg"
             alt="Slide 3"
-            className="object-cover w-full h-64 md:h-80 lg:h-96 rounded-xl"
+            className="object-cover w-full h-64 md:h-80 md:w-70 lg:h-96 rounded-xl"
           />
         </div>
       </Carousel>
