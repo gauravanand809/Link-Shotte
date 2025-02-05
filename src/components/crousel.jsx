@@ -11,27 +11,27 @@ const MyCarousel = () => {
         showThumbs={false}
         showStatus={false}
         interval={3000}
-        className="w-full max-w-4xl mt-10 m-20 rounded-xl shadow-xl"
+        className="w-full max-w-4xl mt-10 mx-4 rounded-xl shadow-xl"
       >
         <div>
-          <img 
-            src="/banner1.png" 
-            alt="Slide 1" 
-            className="object-cover w-full h-80 md:h-96 rounded-xl"
+          <img
+            src="/banner1.png"
+            alt="Slide 1"
+            className="object-cover w-full h-64 md:h-80 lg:h-96 rounded-xl"
           />
         </div>
         <div>
-          <img 
-            src="/banner2x.jpg" 
-            alt="Slide 2" 
-            className="object-cover w-full h-80 md:h-96 rounded-xl"
+          <img
+            src="/banner2x.jpg"
+            alt="Slide 2"
+            className="object-cover w-full h-64 md:h-80 lg:h-96 rounded-xl"
           />
         </div>
         <div>
-          <img 
-            src="/banner3x.jpg" 
-            alt="Slide 3" 
-            className="object-cover w-full h-80 md:h-96 rounded-xl"
+          <img
+            src="/banner3x.jpg"
+            alt="Slide 3"
+            className="object-cover w-full h-64 md:h-80 lg:h-96 rounded-xl"
           />
         </div>
       </Carousel>
